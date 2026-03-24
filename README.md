@@ -3,7 +3,7 @@ This repository contains my frontend projects built using HTML , CSS , and JavaS
 
 ## Contact Form 
 A simple contact form with basic validation using JavaScript.
-![Contact Form] (screenshots/contact.png)
+![Contact Form](screenshots/contact.png)
 
 ## Portfolio Website 
 ### Home Page
