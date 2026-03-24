@@ -1,0 +1,156 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    color: white;
+
+    /* Gradient background */
+    background: linear-gradient(-45deg, #0f172a, #1e293b, #38bdf8, #0ea5e9);
+    background-size: 400% 400%;
+
+    /* Animation */
+    animation: bgAnimation 10s ease infinite;
+
+    scroll-behavior: smooth;
+}
+
+/* Background animation */
+@keyframes bgAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo {
+    color: #38bdf8;
+    font-size: 25px;
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;   /* ❗ important (space fix) */
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    white-space: nowrap; /* ❗ text break na ho */
+}
+
+.menu li a:hover {
+    color: #38bdf8;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #38bdf8;
+}
+
+/* Home */
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1e293b, #0f172a);
+}
+
+/* Sections */
+.section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* Skills */
+.skills-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #1e293b;
+    padding: 12px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+    background: #38bdf8;
+    color: black;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #38bdf8;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+/* Fade animation */
+.fade {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeIn 1s ease forwards;
+}
+
+.fade:nth-child(1) { animation-delay: 0.3s; }
+.fade:nth-child(2) { animation-delay: 0.6s; }
+.fade:nth-child(3) { animation-delay: 0.9s; }
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
