@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+    }
+    .container{
+        display: grid;
+         grid-template-columns: repeat(3 , 1fr);
+         gap: 20px;
+         padding: 20px;
+    }
+    .box{
+         border: 2px solid black;
+        border-radius: 10px;
+        background-color: #d94b99;
+        color: white;
+        padding: 30px;
+        text-align: center;
+       }

@@ -1,0 +1,39 @@
+body{
+    background-color:#f8fafc;
+}
+
+.apps{
+    display: grid;
+    grid-template-columns: repeat(2 , 250px);
+    padding: 20px;
+    gap: 20px;
+    border: 2px solid black;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 10px;
+    background-color: #e2e8f0;
+    }
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #0f172a;
+    gap: 20px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0px 0px 15px rgb(10, 7, 30);
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.card:hover{
+    transform: translateY(-8px);
+    transition: 0.3s;
+}
