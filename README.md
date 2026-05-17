@@ -12,14 +12,14 @@ A simple contact form with basic validation using JavaScript.
 ### Projects Section
 ![Projects Section](screenshots/portfolio2.png)
 
-##flex Design
+## Flex Design
 ![Flex Design](screenshots/flexpage.png)
 
-##Grid Practice
+## Grid Practice
 ![Grid Practice](screenshots/gridpractice.png)
 
-##Mobile App Grid
+## Mobile App Grid
 ![Mobile App Grid](screenshots/mobileappsgrid.png)
 
-##Profile Card
+## Profile Card
 ![Profile Card](screenshots/profilecard.png)
