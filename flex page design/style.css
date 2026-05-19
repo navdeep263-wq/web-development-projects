@@ -18,8 +18,7 @@ body{
     100%{
         background: #ffe5ec;
     }
-    
-}
+    }
 nav{
     display: flex;
     justify-content: center;

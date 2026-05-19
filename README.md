@@ -23,3 +23,10 @@ A simple contact form with basic validation using JavaScript.
 
 ## Profile Card
 ![Profile Card](screenshots/profilecard.png)
+
+## Responsive Food UI 
+### Responsive Food UI Home Page
+![Responsive Food UI Home Page](screenshots/responsiveUI.png)
+
+### Responsive Food UI2
+![Responsive Food UI2](screenshots/responsiveUI2.png)
