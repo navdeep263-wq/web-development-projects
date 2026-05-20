@@ -30,3 +30,10 @@ A simple contact form with basic validation using JavaScript.
 
 ### Responsive Food UI2
 ![Responsive Food UI2](screenshots/responsiveUI2.png)
+
+## Music landing page
+### music landing page home page
+![Music landing page](screenshots/music-landing-page.png)
+
+### music landing page2
+![Music landing page2](screenshots/music-landing-page2.png)
