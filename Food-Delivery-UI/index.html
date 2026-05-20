@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Food Delivery App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <h1>🍔 Foodie Express</h1>
+  <div class="cart">Cart 🛒 <span id="cart-count">0</span></div>
+</header>
+
+<section class="hero">
+  <h2>Delicious Food Delivered Fast 🚀</h2>
+  <input type="text" id="search" placeholder="Search food..."/>
+</section>
+
+<section class="menu" id="menu">
+
+  <!-- Food Card -->
+  <div class="card">
+    <img src="https://media.istockphoto.com/id/1438143625/photo/double-cheese-beef-burger-with-kitchen-background.jpg?s=612x612&w=0&k=20&c=ZApLb9V7HEHcCa12vKG_4x2314tYUML3CLofF_KBMM4=" alt="Burger"/>
+    <h3>Cheese Burger</h3>
+    <p>₹120</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://media.istockphoto.com/id/842082336/photo/homemade-veggie-pizza-with-mushrooms-peppers.jpg?s=612x612&w=0&k=20&c=op1vZnGjlB_c3w6Z-ohPo0wn4QveujVKZu4vTZCOWnc=" alt="Pizza"/>
+    <h3>Veg Pizza</h3>
+    <p>₹250</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2024/04/white-sauce-pasta.jpg" alt="Pasta"/>
+    <h3>White Sauce Pasta</h3>
+    <p>₹180</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/hakka-noodles-recipe.jpg" alt="Pasta"/>
+    <h3>Hakka Noodle</h3>
+    <p>₹160</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShDZVvMQAm1vzdYBNMD_F0IiZ_KxPEh2u2Xw&s" alt="Pasta"/>
+    <h3>Corn Pizza</h3>
+    <p>₹209</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://www.kimscravings.com/wp-content/uploads/2022/12/creamy-pasta-sauce-recipe-featured.jpg" alt="Pasta"/>
+    <h3>Red Sauce Pasta</h3>
+    <p>₹190</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
