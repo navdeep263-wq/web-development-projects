@@ -1,0 +1,370 @@
+
+
+
+body{
+    background-color: black;
+    width: 100%;
+   
+}
+
+
+/* .hero{
+    background-image: url("netflix.jpg");
+    background: rgba(0 , 0, 0, 0, 2);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 50vh;
+   width: 100%;
+} */
+.hero{
+background:
+linear-gradient(rgba(0,0,0,0.6),
+rgba(0,0,0,0.6)),
+url("netflix.jpg");
+
+background-size: cover;
+background-position: center;
+
+width:100%;
+height:50vh;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background : rgba(0, 0, 0, 0.458);
+    backdrop-filter: blur(5px);
+    padding: 2px;
+}
+nav h1{
+    color: rgb(237, 16, 16);
+    margin-right: 70%;
+}
+nav select{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(189, 5, 5);
+    color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+.container{
+     text-align: center;
+}
+.container h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+    margin:0;
+}
+.container h5{
+    color: white;
+}
+.container p{
+    color: white;
+}
+.container button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(189, 5, 5);
+    color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+
+}
+ .images img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    object-fit: cover;
+    
+}
+.images img:hover{
+    transform: scale(1.1);
+   transition: 0.3s;
+}
+.images h4{
+    color: white;
+     font-size: 20px;
+}
+hr{
+    height: 2px;
+    width: 100%;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 80px; */
+    gap: 80px;
+}
+.left h3{
+    color: white;
+    font-size: 50px;
+    margin-left: 0;
+}
+.left{
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: left;
+    width: 50%;
+}
+.right{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    width: 50%;
+    gap: 30px;
+   
+}
+.right h6{
+    color: white;
+    
+    font-size:10px;
+}
+.box{
+   background-color: rgb(73, 59, 59);
+    border: 2px solid rgb(22, 5, 5);
+    border-radius: 5px;
+    
+}
+.center img{
+    width: 500px;
+
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 30px;
+    margin-top: 40px;
+}
+.left-content{
+    color: white;
+    text-align: left;
+    margin-right: 100px;
+    margin-left: 0px;
+    
+}
+.center-content{
+    color: white;
+    margin-right: 100px;
+    margin-left: 0px;
+}
+.right-content{
+    color: white;
+    margin-right: 100px;
+    margin-left: 0px;
+}
+li{
+    font-size: 20px;
+    
+}
+.left h5{
+    color: white;
+}
+/* ==========================
+   RESPONSIVE MEDIA QUERIES
+========================== */
+
+
+/* Tablet */
+@media (max-width:992px){
+
+nav{
+    justify-content: space-between;
+    padding:10px 20px;
+}
+
+nav h1{
+    margin-right:0;
+    font-size:35px;
+}
+
+.container h2{
+    font-size:40px;
+}
+
+.images{
+    flex-wrap: wrap;
+}
+
+.images img{
+    width:220px;
+    height:220px;
+}
+
+.main{
+    flex-direction: column;
+    gap:40px;
+}
+
+.left,
+.right{
+    width:90%;
+    margin:0;
+}
+
+.left h3{
+    font-size:35px;
+    text-align:center;
+}
+
+.left h5{
+    text-align:center;
+}
+
+.center img{
+    width:100%;
+    max-width:450px;
+}
+
+.last{
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+}
+
+
+
+/* Mobile */
+@media (max-width:768px){
+
+.hero{
+    height:auto;
+    padding-bottom:40px;
+}
+
+nav{
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+nav h1{
+    width:100%;
+    text-align:center;
+    font-size:30px;
+}
+
+.container{
+    padding:20px;
+}
+
+.container h2{
+    font-size:30px;
+}
+
+.container h5{
+    font-size:16px;
+}
+
+.container p{
+    font-size:14px;
+}
+
+.container button{
+    width:180px;
+}
+
+.images{
+    flex-direction: column;
+}
+
+.images img{
+    width:90%;
+    height:300px;
+}
+
+.main{
+    flex-direction: column;
+}
+
+.left{
+    width:90%;
+    text-align:center;
+}
+
+.left h3{
+    font-size:30px;
+}
+
+.center img{
+    width:100%;
+}
+
+.right{
+    width:90%;
+}
+
+.right h4{
+    color:white;
+    text-align:center;
+}
+
+.box{
+    padding:10px;
+}
+
+.right h6{
+    font-size:16px;
+}
+
+.last{
+    flex-direction: column;
+    gap:20px;
+    padding:20px;
+}
+
+li{
+    font-size:16px;
+}
+
+}
+
+
+
+/* Small Phones */
+@media (max-width:480px){
+
+.container h2{
+    font-size:24px;
+}
+
+.container p{
+    font-size:13px;
+}
+
+.images img{
+    height:250px;
+}
+
+.left h3{
+    font-size:24px;
+}
+
+.center img{
+    width:100%;
+}
+
+}
