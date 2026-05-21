@@ -47,7 +47,7 @@ A simple contact form with basic validation using JavaScript.
 
 ## Netflix Clone UI
 ### Netflix clone UI Home page
-![Netflix clone UI Home page](screenshots/image.png)
+![Netflix clone UI home page](screenshots/image.png)
 
 ### Netflix clone UI 2
 ![Netflix clone UI 2](screenshots/image2.png)
