@@ -46,9 +46,9 @@ A simple contact form with basic validation using JavaScript.
 ![Food delivery UI home page](screenshots/food-delivery-UI2.png)
 
 ## Netflix Clone UI
-### Netflix clone UI Home page
-![Netflix clone UI home page](screenshots/image.png)
+## Netflix clone UI Home page
+![Netflix clone UI Home page](screenshots/netflix.png)
 
-### Netflix clone UI 2
-![Netflix clone UI 2](screenshots/image2.png)
+## Netflix clone UI 2
+![Netflix clone UI 2](screenshots/netflix2.png)
 
