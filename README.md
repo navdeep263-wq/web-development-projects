@@ -52,3 +52,13 @@ A simple contact form with basic validation using JavaScript.
 ## Netflix clone UI 2
 ![Netflix clone UI 2](screenshots/netflix2.png)
 
+## Coffee-shop-landing-page
+### coffee-shop-lansing-page1
+![coffee-shop-landing-page1](screenshots/coffee.png)
+
+### coffee-shop-lansing-page2
+![coffee-shop-landing-page2](screenshots/coffee2.png)
+
+### coffee-shop-lansing-page3
+![coffee-shop-landing-page3](screenshots/coffee3.png)
+
