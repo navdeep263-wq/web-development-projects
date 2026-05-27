@@ -21,8 +21,12 @@ A simple contact form with basic validation using JavaScript.
 ## Mobile App Grid
 ![Mobile App Grid](screenshots/mobileappsgrid.png)
 
-## Profile Card
+### Profile Card
+## profile card without js
 ![Profile Card](screenshots/profilecard.png)
+
+## profile card with js alert msg
+![Profile card](screenshots/profilecard2.png)
 
 ## Responsive Food UI 
 ### Responsive Food UI Home Page
