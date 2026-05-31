@@ -66,3 +66,9 @@ A simple contact form with basic validation using JavaScript.
 ### coffee-shop-landing-page3
 ![coffee-shop-landing-page3](screenshots/coffee3.png)
 
+## practice javaScript
+### first code of javaScript
+![ first code of js](screenshots/firstcode.png)
+
+### practice javaScript
+![ practice javaScript create a object](screenshots/practicejs.png)
