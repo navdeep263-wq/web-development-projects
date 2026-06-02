@@ -82,3 +82,16 @@ A simple contact form with basic validation using JavaScript.
 
 ### operators and conditional and prompt use page3
 ![operators and conditional and prompt use3](screenshots/javaScriptpractice3.png)
+
+## student register card
+### student register card home page
+![student register card home page](screenshots/studentRegister.png)
+
+### student register card 2
+![student register card 2](screenshots/studentRegister2.png)
+
+### student register card 3
+![student register card 3](screenshots/studentregister3.png)
+
+### student register card 4
+![student register card 4](screenshots/studentRegister4.png)
