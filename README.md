@@ -72,3 +72,13 @@ A simple contact form with basic validation using JavaScript.
 
 ### practice javaScript
 ![ practice javaScript create a object](screenshots/practicejs.png)
+
+## practice javaScript operators and conditions
+### operators and conditional and prompt use
+![operators and conditional and prompt use](screenshots/javaScriptpractice.png)
+
+### operators and conditional and prompt use page2
+![operators and conditional and prompt use2](screenshots/javaScriptpractice2.png)
+
+### operators and conditional and prompt use page3
+![operators and conditional and prompt use3](screenshots/javaScriptpractice3.png)
