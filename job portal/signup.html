@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up - JobHub</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Create Account</h1>
+    <h3>Join JobHub Today</h3>
+
+    <form onsubmit="return signupUser()">
+
+        <input type="text"
+        id="name"
+        placeholder="Full Name"
+        required>
+
+        <input type="email"
+        id="email"
+        placeholder="Email"
+        required>
+
+        <input type="password"
+        id="password"
+        placeholder="Create Password"
+        required>
+
+        <button type="submit">
+            Sign Up
+        </button>
+
+        <p>
+            Already have an account?
+            <a href="login.html">Login</a>
+        </p>
+
+    </form>
+
+</div>
+
+<script src="auth.js"></script>
+
+</body>
+</html>

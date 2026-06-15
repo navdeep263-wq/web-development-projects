@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(228, 209, 229);
+}
+
+
+
+.hero{
+    background-image: url(photo.png);
+    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 70vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    backdrop-filter: blur(5px);
+}
+nav h2{
+    margin-right: 60%;
+    color: rgb(168, 10, 168);
+}
+span{
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    }
+    a:hover{
+        text-decoration: underline;
+        color:  rgb(168, 10, 168);
+    }
+    .left{
+       padding: 20px;
+       
+        
+    }
+    .left h1{
+        font-size: 70px;
+        color: rgb(168, 10, 168);
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .left p{
+        color: white;
+        font-size: 20px;
+    }
+    .left p span{
+           color: rgb(168, 10, 168);
+    }
+    .left h3{
+        color: white;
+        font-size: 30px;
+    }
+    .middle{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .rightside{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .rightside p{
+        font-size: 20px;
+    }
+    .rightside h5{
+        color: white;
+        font-size: 20px;
+        background-color: rgb(168, 10, 168);
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 75%;
+    }
+
+    .rightside h4{
+       font-size: 25px;
+    }
+    .leftside{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+   .leftside img{
+       height: 350px ;
+       width: 550px;
+      
+   }
+
+   .skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    
+   }
+    .skills h1{
+    text-align: center;
+    
+    
+   }
+   h1:hover{
+    text-decoration: underline solid rgb(168, 10, 168);
+   }
+   .box{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 25px;
+     gap: 15px;
+     height: 230px;
+    width: 480px;
+    }
+    i{
+        font-size: 30px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    .skills a{
+        text-decoration: none;
+        cursor: pointer;
+       
+    }
+    .html-icon {
+        color: #E34F26;
+    }
