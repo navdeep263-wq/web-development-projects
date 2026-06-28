@@ -95,3 +95,13 @@ A simple contact form with basic validation using JavaScript.
 
 ### student register card 4
 ![student register card 4](screenshots/studentRegister4.png)
+
+## new portfolio 
+### portfolio hero section1
+![portfolio hero section 1](screenshots/portfolioN.png)
+
+### portfolio section 2
+![portfolio section 2](screenshots/portfolioN2.png)
+
+### portfolio section 3
+![portfolio section 3](screenshots/portfolioN3.png)

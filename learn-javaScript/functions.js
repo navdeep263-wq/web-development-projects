@@ -43,6 +43,19 @@
 //practice
 let arr = [1,2,3,4,5,6];
 
-arr.forEach((val) =>{
-   console.log(val * val);
+// arr.forEach((val) =>{
+//    console.log(val * val);
+// });
+
+//filter
+// let evenArr = arr.filter((val)=>{
+//    return val % 2 === 0;
+// });
+
+// console.log(evenArr);
+
+const output = arr.reduce((res , curr) =>{
+     return res + curr;
 });
+
+console.log(output);

@@ -12,20 +12,21 @@
     <section class="hero">
         <nav>
             <h2>Navdeep <span>Kaur</span></h2>
-            <a href="#">Home</a>
-            <a href="#">About me</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#Home">Home</a>
+            <a href="#About me">About me</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
         </nav>
         <div class="left">
             <p>Hello, I'm</p>
             <h1>Navdeep <span>Kaur</span></h1>
             <h3>Aspiring <span>Frontend Developer</span></h3>
             <p>I build responsive,interactive and user-friendly web experiences.</p>
-
+            <button onclick="welcome()">Click Me</button>
         </div>
     </section>
+    <section id="About me">
     <section class="middle">
          <div class="leftside">
      <img src="picture.avif" alt="image">
@@ -37,7 +38,11 @@
         <p>Along with web development, I am also learning Java and practicing DSA problems on LeetCode to improve my problem-solving and logical thinking skills.</p>
     </div>
     </section>
-     <h1>Skills</h1>
+    </section>
+     
+    
+       <div class="head"><h1>Skills</h1></div> 
+        <section id="Skills">
     <section class="skills">
         <div class="box">
            <i style="color: rgb(168, 10 , 168);" class="fa-solid fa-code"></i>
@@ -51,6 +56,7 @@
             <i style="color: #007ACC; margin-top:10px;" class="fa-brands fa-java"></i>
             <h2>Programming</h2>
            <a><i style="color: #f89820;" class="fa-brands fa-java"></i>Java</a>
+           <a><i style="color:#f89820;" class="fa-solid fa-code"></i>C</a>
             
            </div>
            <div class="box">
@@ -71,21 +77,68 @@
         
            </div>
     </section>
-    <!-- <section class="hero2">
-        <div class="card">
-            <img src="netflix.jpeg" alt="Netflix">
-            <h3>Netflix-UI Clone</h3>
-            <p></p>
+    </section>
+
+    <section id="Projects">
+    <section>
+      <div class="head"><h1>My Projects</h1></div> 
+        <div class="projects">
+         
+            <div class="pr">
+                <img src="coffee.jpeg" alt="coffee-landing-page">
+                <h3>Coffee Shop Landing Page</h3>
+                <p>A responsive cooffee shop-landing page</p>
+            </div>
+            <div class="pr">
+                <img src="music.jpeg" alt="music landing-page">
+                <h3>Music Landing Page</h3>
+                <p>A music landing page using HTML and CSS</p>
+            </div>
+            <div class="pr">
+                <img src="food-delivery.jpeg" alt="Food-dilevry-UI">
+                <h3>Food Delivery UI</h3>
+                <p>A food delivery UI using html, css and js</p>
+            </div>
+            <div class="pr">
+                <img src="netflix.jpeg" alt="netflix-UI">
+                <h3>Netflix Clone UI</h3>
+                <p>A netflix clone UI using html and css</p>
+            </div>
         </div>
-        <div class="card">
-            <img src="music.jpeg" alt="music">
+    </section>
+    </section>
+    <section id="Contact">
+  <footer class="footer">
+
+    <h2>Get In Touch</h2>
+
+    <div class="footer-content">
+
+        <div class="contact-box">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:navdeepkaur83882@gmail.com">My Email</a>
         </div>
-        <div class="card">
-            <img src="food-delivery.jpeg" alt="food-delivery">
+
+        <div class="contact-box">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/navdeep263-wq" target="_blank">
+                GitHub
+            </a>
         </div>
-        <div class="card">
-            <img src="coffee.jpeg" alt="coffee-landing-page">
+
+        <div class="contact-box">
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/navdeep-kaur-886b883b2" target="_blank">
+                LinkedIn
+            </a>
         </div>
-    </section> -->
+
+    </div>
+
+    <p>© 2026 Navdeep Kaur | All Rights Reserved</p>
+
+</footer>
+</section>
+    <script src="script.js"></script>
 </body>
-</html>
+</html>   
